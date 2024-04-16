@@ -1,0 +1,25 @@
+.outer-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px; 
+    background-color: #f2f2f2;
+  }
+
+.inner-container {
+  padding-left: 20px; 
+  padding-right: 20px; 
+  background-color: #ffffff; 
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.main-content {
+  width: 100%;
+  padding: 20px; 
+}

@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+.prev-btn, .next-btn {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 8px;
+  margin: 0 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prev-btn:disabled, .next-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.page-info {
+  margin: 0 10px;
+}
+  
